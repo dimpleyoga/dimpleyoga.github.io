@@ -1,0 +1,49 @@
+/**
+ * Box model example
+ */
+
+
+/* All boxes are 200x200 pixel and a pinky hue */
+.box {
+  background: pink;
+  width: 200px;
+  height: 200px;
+}
+
+.marginExample {
+  margin: 50px;
+}
+
+.paddingExample {
+  padding: 50px;
+
+}
+
+.borderExample {
+  border: 10px purple solid;
+}
+
+.allThree {
+  margin: 10px;
+  padding: 70px;
+  border: 10px solid red;
+}
+
+.mixed {
+  margin-left: 100px;
+  padding-top: 80px;
+  border-top: 20px black solid;
+  border-bottom: 12px blue solid;
+
+}
+
+.roundedCorners {
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.circle {
+  border-radius: 100px;
+  text-align: center;
+  line-height: 200px; 
+}
